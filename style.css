@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 62.5%;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+nav {
+    height: 15vh;
+    background-color: black;
+    display: flex;
+}
+
+ul {
+    width: 100vw;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: grey;
+}
