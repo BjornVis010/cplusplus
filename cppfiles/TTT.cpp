@@ -27,10 +27,10 @@ int main() {
 	computerTotal = random1 * random2 + random3 / random4;
 
 	// Print the random number x2
-	cout << setw(2) << "" << random1 << endl;
-    cout << setw(2) << "*" << random2 << endl;
-    cout << setw(2) << "+" << random3 << endl;
-    cout << setw(2) << "/" << random4 << endl;
+	cout << setw(2) << "" << endl << random1 << endl;
+    cout << setw(2) << "*" << endl << random2 << endl;
+    cout << setw(2) << "+" << endl << random3 << endl;
+    cout << setw(2) << "/" << endl << random4 << endl;
     cout<<"_____"<<endl;
     cin >> userTotal;
 
